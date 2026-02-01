@@ -14,3 +14,8 @@ province_code=input("Enter Province Code: ")
 postal_code=input("Enter Postal Code: ")
 customer_name=input("Enter Customer Name: ")
 
+#output shipping address print
+print('\nShip to: ')
+print(customer_name)
+print(civic_number,street_name)
+print('{0}, {1} {2}'.format(city_name, province_code, postal_code))
